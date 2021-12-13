@@ -12,7 +12,6 @@ Serial myPort;
 Movie analysis1, analysis2;
 
 
-
 Capture cam1;
 Capture cam2;
 
@@ -20,14 +19,7 @@ Capture cam2;
 int LENGTH = 30;
 PImage clip1[] = new PImage[LENGTH];
 PImage clip2[] = new PImage[LENGTH];
-//
 
-///
-//class Names;
-//PImage [] result = new PImage[2];
-//Names [] name = new Names[result.length];
-///
-//Names name;
 
 //these are all my images/videos
 PImage bg, ap, de1, de2, de3, de4, de5, de6, de7, de8, de9, de10, de11, de12, de13, de14;
@@ -590,3 +582,7 @@ void finishAnalysis() {
       }
     }
   }
+  
+  
+//Assistance was received from Rodolfo Cossovich for some parts of code, particularly those related to video capture and playback.
+//Other code is entirely of my own or based on tutorials from processing.org
