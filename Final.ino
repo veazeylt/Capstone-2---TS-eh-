@@ -34,3 +34,6 @@ void loop() {
   delay(10);
 
 }
+
+//All code is original or based on tutorials from arduino.cc or from NYU Shanghai's IMA Website Tutorials
+//I am the sole owner of this content and any usage of my content must be credited properly.
